@@ -31,5 +31,5 @@ def get_index_from_file():
     return find_index(ordered_list, 0, len(ordered_list), given_number)
 
     
-
-get_index_from_file()
+if __name__ == "__main__":
+    get_index_from_file()
